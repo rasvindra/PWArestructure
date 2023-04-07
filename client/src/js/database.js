@@ -20,7 +20,7 @@ export const putDb = async (content) => {
     const store = tx.objectStore("jate");
     const request = store.put({ jate: content });
     const result = await request;
-    console.log(result, "#####TEST111111");
+    console.log(result, "###TEST1-saved to DB!");
   } catch {
     console.log("putDb not implemented","DB not working!")
   }
@@ -35,7 +35,7 @@ export const getDb = async () => {
     const store = tx.objectStore("jate");
     const request = store.getALL();
     const result = await request;
-    console.log(result, "#####TEST222222222");
+    console.log(result, "###TEST2-got from DB!");
   } catch {
     console.log("putDb not implemented","DB not working!")
   }
