@@ -35,7 +35,7 @@ rasvindra@hotmail.com <br/>
 [github.com/rasvindra](https://github.com/rasvindra)
 
 ## Deployed
-"Deployed Link goes here"
+https://limitless-lowlands-03057.herokuapp.com
 
 ## Screenshot
-![](./public/image/)
+![](./assets/Capture.PNG)
